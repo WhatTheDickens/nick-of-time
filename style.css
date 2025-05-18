@@ -1,0 +1,32 @@
+/* @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,700,600&subset=latin,latin-ext); */
+@import url(https://fonts.bunny.net/css?family=open-sans:400,400i,600);
+
+body {
+ margin: 0 16%;
+ font-family: 'Open Sans';
+ font-size: 17px;
+ line-height: 1.6em;
+}
+
+.line-regular {
+  line-height: normal;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.line-narrow {
+  line-height: 0%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* columns and rows for map post*/
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
